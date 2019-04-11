@@ -1,0 +1,15 @@
+,Rule,Transaction,Antecedent,Consequent,Support,Confidence,Lift
+0,{3.5 -> 20},"['3.5', '20']",3.5,20,0.23246297739672642,0.7716688227684346,1.0460127835307993
+1,{4.0 -> 20},"['4.0', '20']",4.0,20,0.294037412314887,0.6937931034482759,0.9404506621491157
+37,{Meadium to Large Reviews -> 20},"['Meadium to Large Reviews', '20']",Meadium to Large Reviews,20,0.20479345284489478,0.7802524127691165,1.0576480143505298
+38,{Medium No Reviews -> 20},"['Medium No Reviews', '20']",Medium No Reviews,20,0.16777084957131722,0.7467476149176062,1.0122315794392909
+56,{Small No Reviews -> 20},"['Small No Reviews', '20']",Small No Reviews,20,0.15159781761496494,0.7695351137487636,1.0431204975590742
+75,{large Number of Reviews -> 20},"['large Number of Reviews', '20']",large Number of Reviews,20,0.11613406079501169,0.7163461538461539,0.971021780649356
+78,{3.5 -> Low_Noise},"['3.5', 'Low_Noise']",3.5,Low_Noise,0.26286048324240063,0.8725743855109962,1.00675623795918
+79,{4.0 -> Low_Noise},"['4.0', 'Low_Noise']",4.0,Low_Noise,0.377435697583788,0.890574712643678,1.027524601008848
+100,{Very Popular Resturant -> CA},"['Very Popular Resturant', 'CA']",Very Popular Resturant,CA,0.10405300077942323,0.6768060836501901,1.6058108281519998
+197,{Meadium to Large Reviews -> Low_Noise},"['Meadium to Large Reviews', 'Low_Noise']",Meadium to Large Reviews,Low_Noise,0.23655494933749024,0.9012620638455826,1.0398554207858655
+198,{Medium No Reviews -> Low_Noise},"['Medium No Reviews', 'Low_Noise']",Medium No Reviews,Low_Noise,0.19894777864380359,0.8855160450997398,1.0216880268551853
+216,{Small No Reviews -> Low_Noise},"['Small No Reviews', 'Low_Noise']",Small No Reviews,Low_Noise,0.15841777084957132,0.8041543026706232,0.9278147215165553
+233,{Very Popular Resturant -> Low_Noise},"['Very Popular Resturant', 'Low_Noise']",Very Popular Resturant,Low_Noise,0.12802026500389713,0.8326996197718631,0.9607496512295867
+236,{large Number of Reviews -> Low_Noise},"['large Number of Reviews', 'Low_Noise']",large Number of Reviews,Low_Noise,0.14477786438035853,0.893028846153846,1.0303561237548422

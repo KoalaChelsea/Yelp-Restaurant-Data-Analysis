@@ -1,0 +1,32 @@
+,Rule,Transaction,Antecedent,Consequent,Support,Confidence,Lift
+0,{3.0 -> 20},"['3.0', '20']",3.0,20,0.09879189399844115,0.8366336633663366,1.1340739462218805
+1,{3.5 -> 20},"['3.5', '20']",3.5,20,0.23246297739672642,0.7716688227684346,1.0460127835307993
+2,{4.0 -> 20},"['4.0', '20']",4.0,20,0.294037412314887,0.6937931034482759,0.9404506621491157
+3,{4.5 -> 20},"['4.5', '20']",4.5,20,0.06995323460639127,0.6433691756272402,0.8721000024614359
+39,{Meadium to Large Reviews -> 20},"['Meadium to Large Reviews', '20']",Meadium to Large Reviews,20,0.20479345284489478,0.7802524127691165,1.0576480143505298
+41,{Medium No Reviews -> 20},"['Medium No Reviews', '20']",Medium No Reviews,20,0.16777084957131722,0.7467476149176062,1.0122315794392909
+59,{Small No Reviews -> 20},"['Small No Reviews', '20']",Small No Reviews,20,0.15159781761496494,0.7695351137487636,1.0431204975590742
+77,{Very Popular Resturant -> 20},"['Very Popular Resturant', '20']",Very Popular Resturant,20,0.09742790335151988,0.6337135614702155,0.8590116210948616
+82,{large Number of Reviews -> 20},"['large Number of Reviews', '20']",large Number of Reviews,20,0.11613406079501169,0.7163461538461539,0.971021780649356
+87,{3.0 -> Low_Noise},"['3.0', 'Low_Noise']",3.0,Low_Noise,0.09625876851130163,0.8151815181518152,0.9405376688748012
+88,{3.5 -> Low_Noise},"['3.5', 'Low_Noise']",3.5,Low_Noise,0.26286048324240063,0.8725743855109962,1.00675623795918
+89,{45 -> 4.0},"['45', '4.0']",45,4.0,0.08826968043647701,0.5038932146829811,1.188956311610602
+90,{4.0 -> Low_Noise},"['4.0', 'Low_Noise']",4.0,Low_Noise,0.377435697583788,0.890574712643678,1.027524601008848
+91,{Very Popular Resturant -> 4.0},"['Very Popular Resturant', '4.0']",Very Popular Resturant,4.0,0.08651597817614964,0.5627376425855513,1.3278021065512868
+92,{large Number of Reviews -> 4.0},"['large Number of Reviews', '4.0']",large Number of Reviews,4.0,0.08281371784879189,0.5108173076923077,1.2052939876215738
+93,{4.5 -> Low_Noise},"['4.5', 'Low_Noise']",4.5,Low_Noise,0.09275136399064692,0.8530465949820788,0.9842255228075604
+115,{Very Popular Resturant -> CA},"['Very Popular Resturant', 'CA']",Very Popular Resturant,CA,0.10405300077942323,0.6768060836501901,1.6058108281519998
+116,{large Number of Reviews -> CA},"['large Number of Reviews', 'CA']",large Number of Reviews,CA,0.09119251753702261,0.5625,1.3346047156726768
+213,{Meadium to Large Reviews -> Low_Noise},"['Meadium to Large Reviews', 'Low_Noise']",Meadium to Large Reviews,Low_Noise,0.23655494933749024,0.9012620638455826,1.0398554207858655
+214,{Medium No Reviews -> Low_Noise},"['Medium No Reviews', 'Low_Noise']",Medium No Reviews,Low_Noise,0.19894777864380359,0.8855160450997398,1.0216880268551853
+232,{Small No Reviews -> Low_Noise},"['Small No Reviews', 'Low_Noise']",Small No Reviews,Low_Noise,0.15841777084957132,0.8041543026706232,0.9278147215165553
+250,{Very Popular Resturant -> Low_Noise},"['Very Popular Resturant', 'Low_Noise']",Very Popular Resturant,Low_Noise,0.12802026500389713,0.8326996197718631,0.9607496512295867
+255,{large Number of Reviews -> Low_Noise},"['large Number of Reviews', 'Low_Noise']",large Number of Reviews,Low_Noise,0.14477786438035853,0.893028846153846,1.0303561237548422
+486,"{20,Very Popular Resturant -> 4.0}","['20,Very Popular Resturant', '4.0']","20,Very Popular Resturant",4.0,0.05533904910366329,0.568,1.3402188505747126
+1978,"{Low_Noise,45 -> 4.0}","['Low_Noise,45', '4.0']","Low_Noise,45",4.0,0.07872174590802807,0.5126903553299492,1.20971351887508
+1992,"{Many_Graduate or professional degree,CA -> 4.0}","['Many_Graduate or professional degree,CA', '4.0']","Many_Graduate or professional degree,CA",4.0,0.05572876071706937,0.500875656742557,1.181836262254162
+2006,"{CA,Very Popular Resturant -> 4.0}","['CA,Very Popular Resturant', '4.0']","CA,Very Popular Resturant",4.0,0.057287607170693686,0.550561797752809,1.2990727108355935
+2137,"{Low_Noise,Very Popular Resturant -> 4.0}","['Low_Noise,Very Popular Resturant', '4.0']","Low_Noise,Very Popular Resturant",4.0,0.07521434138737335,0.5875190258751902,1.3862747773753914
+2141,"{large Number of Reviews,Low_Noise -> 4.0}","['large Number of Reviews,Low_Noise', '4.0']","large Number of Reviews,Low_Noise",4.0,0.07716289945440374,0.5329744279946165,1.2575746043532743
+6889,"{20,large Number of Reviews,Low_Noise -> 4.0}","['20,large Number of Reviews,Low_Noise', '4.0']","20,large Number of Reviews,Low_Noise",4.0,0.05319563522992985,0.5141242937853108,1.213096954347685
+9970,"{CA,Low_Noise,Very Popular Resturant -> 4.0}","['CA,Low_Noise,Very Popular Resturant', '4.0']","CA,Low_Noise,Very Popular Resturant",4.0,0.05144193296960249,0.5776805251641137,1.3630604391458536
