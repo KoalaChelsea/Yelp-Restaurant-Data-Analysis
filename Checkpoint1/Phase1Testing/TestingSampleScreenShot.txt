@@ -1,0 +1,969 @@
+SampleData from Yelp API: 
+=========================================================
+                       name   latitude  longitude is_closed zipcode  \
+0           Martin's Tavern  38.906750 -77.063230     False   20007   
+1               Cafe Milano  38.906180 -77.064910     False   20007   
+2                 El Centro  38.905690 -77.063030     False   20007   
+3     Clyde's of Georgetown  38.904911 -77.064026     False   20007   
+4                 Malmaison  38.904145 -77.068169     False   20007   
+5       Filomena Ristorante  38.904430 -77.062546     False   20007   
+6      Thunder Burger & Bar  38.904940 -77.060630     False   20007   
+7                 il Canale  38.904493 -77.060974     False   20007   
+8  Mr Smith's of Georgetown  38.902817 -77.063133     False   20007   
+9            Choco Shawarma  38.903390 -77.060820     False   20007   
+
+             city state price  rating  \
+0  Washington, DC    DC    $$     3.5   
+1  Washington, DC    DC   $$$     3.0   
+2  Washington, DC    DC    $$     3.0   
+3  Washington, DC    DC    $$     4.0   
+4  Washington, DC    DC    $$     3.0   
+5  Washington, DC    DC   $$$     4.0   
+6  Washington, DC    DC    $$     3.5   
+7  Washington, DC    DC    $$     4.0   
+8  Washington, DC    DC    $$     3.0   
+9  Washington, DC    DC    $$     3.5   
+
+                                                 url review_count  \
+0  https://www.yelp.com/biz/martins-tavern-washin...          499   
+1  https://www.yelp.com/biz/cafe-milano-washingto...          414   
+2  https://www.yelp.com/biz/el-centro-washington-...          830   
+3  https://www.yelp.com/biz/clydes-of-georgetown-...          969   
+4  https://www.yelp.com/biz/malmaison-washington?...          200   
+5  https://www.yelp.com/biz/filomena-ristorante-w...         2093   
+6  https://www.yelp.com/biz/thunder-burger-and-ba...          649   
+7  https://www.yelp.com/biz/il-canale-washington-...         2108   
+8  https://www.yelp.com/biz/mr-smiths-of-georgeto...           93   
+9  https://www.yelp.com/biz/choco-shawarma-washin...           42   
+
+  transactions                            category                      id  
+0           []  breakfast_brunch,tradamerican,bars  pav9wg2UFsyB-dvb7H0OpA  
+1           []                italian,bars,seafood  IahWJkql-VuJXlXfLFRccw  
+2           []                        bars,mexican  MVVOLevQSzS3ogKyEW24Bw  
+3           []  tradamerican,bars,breakfast_brunch  IMUlQlXTqgsWTUZLifuRZQ  
+4           []                 cafes,french,venues  TrDQc_Yd4P8GjxUoa5nkVQ  
+5           []                   italian,wine_bars  U0tfep9yNBASTe2zAG6cPw  
+6           []            burgers,bars,newamerican  pPxcmi6cpDRPuqBdb3dCjw  
+7     [pickup]                       italian,pizza  9X0F8gl4mPSSFHkxSB2lXA  
+8     [pickup]                   bars,tradamerican  2owgAPNF2AkqWGXsQoDCIg  
+9           []        hookah_bars,falafel,lebanese  wBO4k4Ep87OpxPHFUBK0Hg  
+
+
+
+
+SampleData from Yelp WebScrape: 
+=========================================================
+                       Id             Name  \
+0  pav9wg2UFsyB-dvb7H0OpA  Martin’s Tavern   
+
+                                         category lowprice highprice  \
+0  Breakfast & Brunch,American (Traditional),Bars   $11-30    $11-30   
+
+                                        health_index star1 star2 star3 star4  \
+0  \n                                82 out of 10...    41    45    96   165   
+
+  star5 Accept_Credit_Card   Alcohol Appointment_Only Caters Delivers  \
+0   152                Yes  Full Bar                      No            
+
+  Dogs_Allowed Outdoor_Seating Parking Smoking_allowed Take_out  \
+0                          Yes  Street                      Yes   
+
+  Takes_Reservations Wheelchair_Accessible WIFI Opened_24hrs Ambience  Attire  \
+0                Yes                         No                Casual  Casual   
+
+  Noise_Level Music  
+0     Average        
+
+
+
+
+SampleData from Google Map API: 
+=========================================================
+                   yelp_id       restaurant_location  \
+0   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+1   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+2   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+3   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+4   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+5   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+6   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+7   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+8   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+9   JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+10  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+11  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+12  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+13  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+14  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+15  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+16  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+17  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+18  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+19  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+20  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+21  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+22  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+23  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+24  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+25  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+26  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+27  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+28  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+29  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+30  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+31  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+32  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+33  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+34  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+35  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+36  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+37  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+38  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+39  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+40  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+41  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+42  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+43  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+44  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+45  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+46  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+47  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+48  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+49  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+50  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+51  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+52  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+53  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+54  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+55  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+56  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+57  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+58  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+59  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+60  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+61  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+62  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+63  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+64  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+65  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+66  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+67  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+68  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+69  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+70  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+71  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+72  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+73  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+74  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+75  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+76  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+77  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+78  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+79  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+80  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+81  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+82  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+83  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+84  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+85  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+86  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+87  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+88  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+89  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+90  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+91  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+92  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+93  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+94  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+95  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+96  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+97  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+98  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+99  JjGLEi6zw5PgR4AQfDPBng  38.92275938,-77.04241012   
+
+                                          id                     place_id  \
+0   319099a816aadfe81f82ac33a4e0aad91114d2ea  ChIJNz9Chtm3t4kRPYLO020V7bQ   
+1   74243cac2f2db2d50e08c211afca79b9b07445c8  ChIJnb2RJ9q3t4kRamfgxorujUI   
+2   3c525ac32d967e85b4aeb3f686193b61e44288d7  ChIJedfzKNq3t4kRTx8Dni1kfZ4   
+3   65eb2091fc6fbf2093bcf5ec666b35e263bbeb85  ChIJxxW-INq3t4kRkTygWPpVu7M   
+4   b8fd17d368061299de20799a28f1d8bc842b98b7  ChIJY72S7Nm3t4kRwhodz1_FuYI   
+5   6ec8adb8ae0831041cf0d208e53a88c9aef43f5f  ChIJlxLJFNq3t4kR5pc3IwZwXVY   
+6   f808f6da2f1f5fb44df8018e984c4021bd1c7ffd  ChIJOYojPdm3t4kRt0wwI-rTIVM   
+7   ca77778804c839a935a3454569e1e0437d5cde95  ChIJNRh5adq3t4kRARz2AoBmSAM   
+8   934fd7b9296ab6c7aa35e89b33d51757e0ac6b85  ChIJ0x7trNu3t4kREGdqoUJkLbE   
+9   3e849faa8fcaf7bf1bc3b14afbc4837313416cac  ChIJGbFTrdu3t4kRuCn1zbzAYI0   
+10  f40a3546bbb273ba02ab0faffe4f609fbc43235d  ChIJW_ZUJtm3t4kRGMQ-o8Qv4Jo   
+11  e1e990affdd02ee6a7e5c03b89f8e8de6ce1862b  ChIJtULeMde3t4kRRy_bsFuCbJ0   
+12  990b68e0ddbcf6dee510f097fa6165f417fefe06  ChIJlw_3Lte3t4kR-YQQjCeOy84   
+13  f8a1a5a74643a833a8619785a4f16e93a8a124d4  ChIJ19D8nNq3t4kRXYjZ1-vTAxI   
+14  6a23aa571d75642061845818e5f259876d5f5c8d  ChIJq1-3K9e3t4kRMtUoMl2e77g   
+15  9be1bb559269db43da04be8350f58abeb18264ba  ChIJTw33Od-3t4kReEBzYECkLsc   
+16  39a914a61d4ec227e8da15dca12ee7b9afcfc489  ChIJy2-Kn9q3t4kRzk1UyoIhpw8   
+17  039f31a4632b43baef983459341e46771af20117  ChIJqTDAPt-3t4kRMYrCR3A_cvI   
+18  5d736b954d57b28c114bc082a93532fada222e48  ChIJV3nNBdy3t4kR_hkL-DIumFk   
+19  776a3f8d59c0822e067f33f68787bfda65448c2f  ChIJ5xw0aNq3t4kRiv3Kv3FuaXI   
+20  35dd197696b2ad3ce652bd307534b6a3324155b6  ChIJZeDqOt-3t4kRhxKB50siyUA   
+21  2b06d66e2e8d5d337024e446e41d5cc5ecbc3060  ChIJpednxd63t4kR-h9ggjTPg2I   
+22  6e932f6d1b37a09c2dcb01dd2a8450b7f2bf4887  ChIJda2vDdu3t4kR2bNuC3uqTlM   
+23  9b9fdf68799688616c6d3003373971afa3f8ec39  ChIJ6b0HOtm3t4kRZpJU9e9lsL4   
+24  14c6c25172452dc94395dc53fc3963803a6a25ba  ChIJf9Rg8tu3t4kRegHq7yGASqE   
+25  622e875d9fb5adf35e486e8a7279a360d3e9536f  ChIJUXEg8du3t4kRfIwYdMc9l64   
+26  687d956759094d3fa0683edeb44adba0297e4fe4  ChIJPScmidm3t4kRWg_xNbx4OSo   
+27  774f5463102615ea238726f28074c56b0ba3817a  ChIJIaMSH9q3t4kRMR8LcIfLE5U   
+28  9bbdf19df2f929438afc09bd06a0a773efafd311  ChIJfTpb27a3t4kRYdHlsBGODSs   
+29  46749520bafd0378cafda73222a6625f39fca3a6  ChIJrdVHMN-3t4kRjUm1Ud6OGSk   
+30  cc2f425ccaa883952607328b1303be8c241974ba  ChIJL1a3K9q3t4kRne-2PUZJEFA   
+31  a447615a06a594a699fead3a267923065d129768  ChIJV1RhSJe3t4kRG77rD2Rdu8A   
+32  5f7a626be64f5b287336a5afe6821943f0a73875  ChIJeXxXEdq3t4kRkKISEN6qCfk   
+33  d80834712a560617c5ea70be5e69d118174e3905  ChIJr012tNu3t4kRmCj9wxuKnRM   
+34  95db8bbb2da85160a52326fc36041fd26b996f51  ChIJO0m-Mtq3t4kRZG40-qkQuzM   
+35  1aa78ae722eaff04ab1ce13f511a54f8f45ba231  ChIJbYt9Ftq3t4kRnCZtj9vIzAY   
+36  42f0f337dc3a968011e22bec8948b2825c7e2567  ChIJ1XMcJNq3t4kRKHujsMWtZss   
+37  0cd381c5033284382f9220e0a7f2cd8fd22970c3  ChIJg4vteNm3t4kRnRr5B1QwRMU   
+38  4f23cdba67ff7b9e8a0ae2ed258951455ae8867e  ChIJ1Xtbstu3t4kR_idtvYHInjE   
+39  ff9243680c6f57e66ecf518a64187ca32c450684  ChIJbYt9Ftq3t4kRalmtqDHOhus   
+40  fbce26a52f9447c59a1be4685f9dff7d0971a507  ChIJodLNs_q3t4kR-rWWZwyOL7A   
+41  81f3b682c41df1b754c498844d9778add4ce1bce  ChIJa--JItm3t4kRoSadXcb7VlY   
+42  6472115a37781604dbc2424e7f2a1f9bc99e881e  ChIJQ2YJ88O3t4kRPxxH7HNjd_k   
+43  03f5d0c11a4bfd026912f1feb97467723a373c13  ChIJS8iOJtq3t4kRMQCy3wFC0Cw   
+44  100e76e9913e2298235e10f402cf929f60dc7732  ChIJTW6GFtq3t4kRhQX8XBuJEmY   
+45  2e7cc6bb3dab7069ebfa87cb8f0ed8938ae065ec  ChIJ-UlhF9m3t4kRVuir-tt8t2E   
+46  44d69bda38639f4a315ddb8c14ec6ecbb89d9a6e  ChIJ0XDNBdy3t4kR5GkX2-JzjOQ   
+47  bb3e751c59aa97a8f2d090a81d0b919b01eca2d0  ChIJF3zgA9u3t4kRwPfQAKIHjak   
+48  1705cdf6cc08270893422d2bab0713117c13b2d1  ChIJz4_Endm3t4kRXqXuNVmX1RY   
+49  e487f28b2251206169bd4374a18c5498bf92af3f  ChIJm9GEENm3t4kReqdqn28AwTg   
+50  2d9d9b1a63b28cd9d4f8c654dcc71f11c716e16c  ChIJTTIsJNm3t4kRB-p7NfQvao4   
+51  c2ccaa42dcd3289336d29edfed5ea1d241ec1b03  ChIJ4_9iJ9m3t4kRMENPbvL4UAI   
+52  eb08afc6153723a987ecbb5ad4dd90c3752beb6c  ChIJG6fpnYq3t4kRmhJnQlMQcdw   
+53  b538e959da70ef869a50c96b4539a0a83acd8b06  ChIJSUlpm9m3t4kRlIy5pnihLKs   
+54  95db8bbb2da85160a52326fc36041fd26b996f51  ChIJO0m-Mtq3t4kRZG40-qkQuzM   
+55  c39ea0f46487ea9f7c7342190e22a4d273a7fcde  ChIJbYt9Ftq3t4kRcveU-GImd-M   
+56  1aa78ae722eaff04ab1ce13f511a54f8f45ba231  ChIJbYt9Ftq3t4kRnCZtj9vIzAY   
+57  42f0f337dc3a968011e22bec8948b2825c7e2567  ChIJ1XMcJNq3t4kRKHujsMWtZss   
+58  0cd381c5033284382f9220e0a7f2cd8fd22970c3  ChIJg4vteNm3t4kRnRr5B1QwRMU   
+59  81f3b682c41df1b754c498844d9778add4ce1bce  ChIJa--JItm3t4kRoSadXcb7VlY   
+60  5003252a1e0b7be1a0613e3d3cfe64a42ea89ef1  ChIJSwtKKtq3t4kRntL3eduPgG4   
+61  4aedc1d1c7b66e57aa3ca74353d416b7f24147f9  ChIJG00jjdu3t4kRIxZz6eJTsU8   
+62  508013fd1fc40b0963e2af34026acdd1602508f1  ChIJSwtKKtq3t4kRTrVOxwjeFdk   
+63  e616dce7956abfc7a440111ac7737d31831cf1f7  ChIJG00jjdu3t4kRZwXxdfOzLjY   
+64  72a373f0723020b78a3453016de116708292bf44  ChIJJ9VmJd-3t4kRyFJOo17QPG8   
+65  6e67335ca3b9bd14aa91a1b820036ef9346c64f0  ChIJLbIrjtm3t4kRGqdp44VeT8Y   
+66  62577f01bcd200e58483d59a6df4a1ce1879f6f3  ChIJ6_XAE9q3t4kR0JWJL48m8e0   
+67  39f2bd13b834eb65b04b7e71489720fbdd8482fa  ChIJi87Vtdu3t4kRnr5IwDRZLsQ   
+68  f6f3ed0f6e8588edcf9bb31e239a5cd22e0fc9b6  ChIJ8yLsp963t4kRSlUOAJqIPJ4   
+69  6b8912784abc181bfa2d7dd636d2059fc1a402f2  ChIJq0p2Gdu3t4kRNuZS_i1cEQM   
+70  81e7435c892719bd52b9fa3a2cae499ab214a0b0  ChIJZ1xnLNq3t4kRMWSzJo7OC6k   
+71  43ae382ade9d04f62b0bf09315ec4a271574d8b9  ChIJPYdwrtu3t4kRa-hRRb7Rgj0   
+72  46749520bafd0378cafda73222a6625f39fca3a6  ChIJrdVHMN-3t4kRjUm1Ud6OGSk   
+73  14c31dcce0c0529767e475eaf8e918bc9aee41a5  ChIJyQkYidm3t4kRQWq_0RJzuNU   
+74  026267e17a3225cbe1b86b972ffd3fdd7ffe2196  ChIJJ6bggNm3t4kRypJjORtFzrU   
+75  7da6bef0a5176bf29b9452a671475b7d91ed20ea  ChIJ68udHNu3t4kRlOvgW5J4oMk   
+76  6d77e4f0e48ec5b1ae7563238e281354096c3892  ChIJN6qDgNm3t4kRwmgC4UQs8KU   
+77  03fd062e5ff4da16e51f2c9ab6caa8d34fddfc76  ChIJt_R9Ktq3t4kRWeTtFXGFQh0   
+78  f9ddc00c16e12eb7d15fd9bcc608616fea6cc88c  ChIJ5cvXj9m3t4kRHmNog8VXi3Y   
+79  6d17c9d9a92484ab43f96c1b860e95b07639fd2e  ChIJhZZbFNq3t4kRhgmCaNpP8HQ   
+80  5b60f6da6e54fe324e1ab89082898ac639e0066b  ChIJ0UsltNu3t4kR2GnrYvNyYQg   
+81  bfbb069078ff189b3e00fe268a5d81e26bf9e6f4  ChIJo5nAlMq3t4kR4OQvPS0Y9Qc   
+82  26b93c593ea6ca3c9499bc00e054b6804271224d  ChIJq6p-gtm3t4kRf9O09IxALTU   
+83  f81d9690ed4f1ffa82b2c029d5eb2745fac5116b  ChIJfaZOLNq3t4kR-BlqvTNnvhM   
+84  81e7435c892719bd52b9fa3a2cae499ab214a0b0  ChIJZ1xnLNq3t4kRMWSzJo7OC6k   
+85  676fb6c486daec1ad61cba7ea0f07cfcf1f96b90  ChIJc7pMLdq3t4kRxNLfF0MeFAI   
+86  fb45f644fabaf526e328e004abedac5cd792f9d7  ChIJHaWHK9q3t4kRxJy0xNHc0gE   
+87  2392d1a9d694d82acff1ee76a6b83e4fc0d13ee7  ChIJ9Sw6rtu3t4kR4n9ZzQFVsk4   
+88  43ae382ade9d04f62b0bf09315ec4a271574d8b9  ChIJPYdwrtu3t4kRa-hRRb7Rgj0   
+89  b5b1d2e2a624f31280be8fe4a1449e6bdcf90db5  ChIJc7pMLdq3t4kReli_EYrgEkQ   
+90  916af3754e952960cb9b77dd6821e599f440ebcb  ChIJ4TuUGNq3t4kRcOnPr2VjK-k   
+91  42e4b626bb51fa9973dd1e19c111c439b3c57784  ChIJs_BBItq3t4kRXxvpMEgZmpc   
+92  afd4a4d51b5d620316b37c00b2c0883a7ff86d16  ChIJ3WcOMdq3t4kRgXJ-kR7Kh5M   
+93  f2252975abea6ab3efbe5b669e77f18528ffb5e4  ChIJixuxqdu3t4kRJnOkEL7vFo0   
+94  986a7f760f3a953b1f9328f3292d7b5b98a7c177  ChIJBdWhAdu3t4kRguhV5Nie7Yk   
+95  1be7daf89f2cb51e3fa2bed4d1aa5daff7cbf2ac  ChIJg9p5Ntq3t4kRSpe38qo8Fk0   
+96  85f36c6e91598745777648e5c945b1241da96f5a  ChIJTyNatNu3t4kR3ffKZrmr_NI   
+97  9260c150ec353684a63b9999a37390850b1dd33b  ChIJryTba9q3t4kRrtpP1KfxVDk   
+98  fb94d58a541bdd98b510a29902ed7eab2cb55b2f  ChIJEWT4rdu3t4kRMayEOMOeUes   
+99  5db2805bfda742f56db35ecc49c55f23f6dde9a8  ChIJixuxqdu3t4kRTFDxWNsrVhc   
+
+          types                                         name          rating  \
+0   bus_station         Adams Mill Road and Columbia Road NW  No information   
+1   bus_station                  Columbia Rd NW & 18th St NW  No information   
+2   bus_station                  18th St NW & Columbia Rd NW  No information   
+3   bus_station              Columbia Rd NW & Biltmore St NW  No information   
+4   bus_station                 Calvert St NW & Lanier Pl NW  No information   
+5   bus_station              Columbia Rd NW & Mintwood Pl NW  No information   
+6   bus_station               Columbia Rd NW & Ontario Rd NW               5   
+7   bus_station              Columbia Rd NW & Mintwood Pl NW  No information   
+8   bus_station                   18th St NW & Belmont Rd NW  No information   
+9   bus_station                   18th St NW & Belmont St NW  No information   
+10  bus_station               Columbia Rd NW & Ontario Rd NW  No information   
+11  bus_station                     Calvert St & Biltmore St  No information   
+12  bus_station              Calvert St Loop & Calvert St NW  No information   
+13  bus_station                  Columbia Rd NW & 19th St NW  No information   
+14  bus_station                     Calvert St & Biltmore St  No information   
+15  bus_station                Columbia Rd NW & Quarry Rd NW  No information   
+16  bus_station                  Columbia Rd NW & 19th St NW  No information   
+17  bus_station                Columbia Rd NW & Mozart Pl NW  No information   
+18  supermarket                                Harris Teeter             4.4   
+19  supermarket                          Metro K Supermarket             3.6   
+20  supermarket                         El Gavilan Groceries             4.0   
+21       school                 H.D. Cooke Elementary School             4.1   
+22       school                 Marie Reed Elementary School             4.4   
+23       school                            Jubilee Jumpstart               5   
+24       school                  Briya Public Charter School               5   
+25       school                     Even Start-Mary's Center  No information   
+26       school                        Capsterdam University             4.7   
+27       school                             Columbian School  No information   
+28       school         GracefulFusion Birth Doula Trainings  No information   
+29   book_store                           The Potter's House             4.5   
+30   book_store                              Idle Time Books             4.2   
+31   book_store               Christian Science Reading Room  No information   
+32   book_store                                  Urban Dwell             4.7   
+33       museum                                 Bazaar Atlas             4.5   
+34          atm                                   Us ATM Svc  No information   
+35          atm                             Wells Fargo Bank             2.6   
+36          atm                                     SunTrust             3.7   
+37          atm                                     PNC Bank               3   
+38          atm         Payment Alliance International, Inc.  No information   
+39          atm                                     BB&T ATM  No information   
+40          atm                          ATM (Suntrust Bank)               1   
+41          atm               Continental Exchange Solutions               1   
+42          atm                                  Cardtronics               5   
+43          atm                                 SunTrust ATM  No information   
+44          atm                          Bank of America ATM  No information   
+45          atm                                 SunTrust ATM  No information   
+46          atm                                          ATM  No information   
+47          atm                                  ATM Express  No information   
+48          atm                                      PNC ATM  No information   
+49          atm                                 Citibank ATM  No information   
+50          atm                               Fast Cash, Inc  No information   
+51          atm                                          ATM  No information   
+52          atm                  Bitcoin ATM Washington D.C.  No information   
+53         bank                                         BB&T               5   
+54         bank                                   Us ATM Svc  No information   
+55         bank             Bank of America Financial Center               2   
+56         bank                             Wells Fargo Bank             2.6   
+57         bank                                     SunTrust             3.7   
+58         bank                                     PNC Bank               3   
+59         bank               Continental Exchange Solutions               1   
+60          gym                                The Studio DC             4.3   
+61          gym           G Muscle Fitness Personal Training  No information   
+62          gym                                     Omm Baby  No information   
+63          gym                       Hard Training Club Llc               5   
+64          gym                              Embrace Yoga DC               5   
+65          gym                                 CenterPointe               5   
+66          gym                                    solidcore             3.4   
+67          gym                               FlexSpert Yoga  No information   
+68          gym                           CrossFit Hierarchy             4.4   
+69          gym  Capital Bikeshare, 18th St & Wyoming Ave NW  No information   
+70         cafe                                        Tryst             4.4   
+71         cafe                                      Bourbon             4.4   
+72         cafe                           The Potter's House             4.5   
+73         cafe                                    Starbucks             3.9   
+74         cafe                                   McDonald's             3.6   
+75         cafe             Adams Morgan Restaurant & coffee             4.8   
+76         cafe         Songbyrd Record Cafe and Music House             4.5   
+77         cafe                                        Spoon             4.1   
+78         cafe                                 Philz Coffee             4.6   
+79         cafe                        Pitango Gelato & Cafe             4.6   
+80         cafe                                  Rise Bakery             4.6   
+81         cafe                                    Nicecream             3.8   
+82         cafe                        The Cup We All Race 4             4.8   
+83          bar                               Smoke & Barrel             4.2   
+84          bar                                        Tryst             4.4   
+85          bar                                Grand Central             4.1   
+86          bar                                Madam's Organ             4.4   
+87          bar                               Town Tavern DC             4.1   
+88          bar                                      Bourbon             4.4   
+89          bar                                    the DINER             4.3   
+90          bar                           Perry's Restaurant             4.2   
+91          bar                               Mintwood Place             4.3   
+92          bar                              Mellow Mushroom             4.3   
+93          bar                                      Muzette             3.9   
+94          bar                            Soussi Restaurant               4   
+95          bar                                Roofers Union             4.1   
+96          bar                          Ventnor Sports Cafe             4.3   
+97          bar                       The Grill From Ipanema             4.5   
+98          bar                           Club Heaven & Hell             3.1   
+99          bar                Himalayan Heritage Restaurant             4.4   
+
+                                geometry  \
+0                   38.922964,-77.042659   
+1           38.922411,-77.04289200000001   
+2           38.922244,-77.04266199999999   
+3                    38.92243,-77.043219   
+4   38.92315299999999,-77.04389599999999   
+5   38.92129600000001,-77.04374899999999   
+6                    38.92405,-77.040464   
+7           38.920917,-77.04368699999999   
+8           38.920537,-77.04185000000001   
+9           38.92040799999999,-77.042039   
+10                   38.924537,-77.04006   
+11          38.923337,-77.04707499999999   
+12          38.92338600000001,-77.047285   
+13  38.91933400000001,-77.04473999999999   
+14          38.92321099999999,-77.047587   
+15                  38.925496,-77.038405   
+16                  38.918827,-77.044828   
+17                   38.925527,-77.03801   
+18                 38.921933,-77.0384744   
+19                 38.9207596,-77.043515   
+20                38.9252169,-77.0383418   
+21         38.92395870000001,-77.0383975   
+22                38.9192027,-77.0403449   
+23                38.9238308,-77.0397601   
+24          38.921008,-77.03981499999999   
+25          38.921286,-77.03961799999999   
+26         38.92274699999999,-77.0429688   
+27                38.9223335,-77.0435882   
+28                38.9237484,-77.0376011   
+29           38.92497400000001,-77.03869   
+30                   38.92219,-77.042189   
+31         38.9227428,-77.04211939999999   
+32                38.9216199,-77.0438968   
+33                38.9207493,-77.0417269   
+34                38.9207051,-77.0416911   
+35                38.9229107,-77.0430408   
+36         38.9221741,-77.04293220000001   
+37                38.9233209,-77.0422712   
+38         38.9205493,-77.04170549999999   
+39                38.9231036,-77.0424321   
+40         38.92295319999999,-77.0430378   
+41                38.9243064,-77.0405141   
+42  38.92415529999999,-77.04111100000001   
+43                38.9221514,-77.0428412   
+44                 38.9216167,-77.043695   
+45                38.9242361,-77.0408482   
+46         38.9215524,-77.03875719999999   
+47  38.92074989999999,-77.04170549999999   
+48                 38.9233017,-77.042189   
+49                38.9241553,-77.0411111   
+50                38.9243399,-77.0398276   
+51                38.9246952,-77.0400847   
+52                38.9218667,-77.0420785   
+53                38.9230745,-77.0424266   
+54                38.9207051,-77.0416911   
+55                38.9216043,-77.0438329   
+56                38.9229107,-77.0430408   
+57         38.9221741,-77.04293220000001   
+58                38.9233209,-77.0422712   
+59                38.9243064,-77.0405141   
+60                38.9222299,-77.0422545   
+61                38.9206841,-77.0397826   
+62                38.9222348,-77.0422452   
+63          38.920709,-77.03969889999999   
+64                38.9251057,-77.0384332   
+65          38.92281200000001,-77.042987   
+66                38.9243947,-77.0396399   
+67         38.9208327,-77.04172799999999   
+68         38.92161799999999,-77.0387399   
+69          38.918723,-77.04151999999999   
+70                  38.921977,-77.042091   
+71         38.9202659,-77.04157959999999   
+72           38.92497400000001,-77.03869   
+73                38.9227223,-77.0429563   
+74                38.9225731,-77.0424245   
+75  38.91907999999999,-77.04184699999999   
+76                38.9223821,-77.0422684   
+77                38.9223592,-77.0422351   
+78         38.9234622,-77.04309839999999   
+79          38.92145600000001,-77.043736   
+80         38.9208395,-77.04173790000002   
+81  38.92316789999999,-77.04234699999999   
+82                38.9228818,-77.0417148   
+83         38.9222858,-77.04221749999999   
+84                  38.921977,-77.042091   
+85                38.9217499,-77.0420238   
+86                 38.922032,-77.0421372   
+87  38.92033869999999,-77.04154919999999   
+88         38.9202659,-77.04157959999999   
+89          38.921846,-77.04204899999999   
+90          38.92211899999999,-77.043565   
+91                 38.922112,-77.0435608   
+92          38.921605,-77.04249500000002   
+93         38.9198556,-77.04140699999999   
+94                  38.919533,-77.041843   
+95                38.9218576,-77.0426306   
+96                  38.920888,-77.041722   
+97                 38.9209468,-77.043476   
+98                  38.920428,-77.041664   
+99  38.91983999999999,-77.04140989999999   
+
+                                            plus_code  \
+0   WXF4+5W Washington, District of Columbia, Unit...   
+1   WXC4+XR Washington, District of Columbia, Unit...   
+2   WXC4+VW Washington, District of Columbia, Unit...   
+3   WXC4+XP Washington, District of Columbia, Unit...   
+4   WXF4+7C Washington, District of Columbia, Unit...   
+5   WXC4+GG Washington, District of Columbia, Unit...   
+6   WXF5+JR Washington, District of Columbia, Unit...   
+7   WXC4+9G Washington, District of Columbia, Unit...   
+8   WXC5+67 Washington, District of Columbia, Unit...   
+9   WXC5+55 Washington, District of Columbia, Unit...   
+10  WXF5+RX Washington, District of Columbia, Unit...   
+11  WXF3+85 Washington, District of Columbia, Unit...   
+12  WXF3+93 Washington, District of Columbia, Unit...   
+13  WX94+P4 Washington, District of Columbia, Unit...   
+14  WXF2+7X Washington, District of Columbia, Unit...   
+15  WXG6+5J Washington, District of Columbia, Unit...   
+16  WX94+G3 Washington, District of Columbia, Unit...   
+17  WXG6+6Q Washington, District of Columbia, Unit...   
+18  WXC6+QJ Washington, District of Columbia, Unit...   
+19  WXC4+8H Washington, District of Columbia, Unit...   
+20  WXG6+3M Washington, District of Columbia, Unit...   
+21  WXF6+HJ Washington, District of Columbia, Unit...   
+22  WX95+MV Washington, District of Columbia, Unit...   
+23  WXF6+G3 Washington, District of Columbia, Unit...   
+24  WXC6+C3 Washington, District of Columbia, Unit...   
+25  WXC6+G5 Washington, District of Columbia, Unit...   
+26  WXF4+3R Washington, District of Columbia, Unit...   
+27  WXC4+WH Washington, District of Columbia, Unit...   
+28  WXF6+FX Washington, District of Columbia, Unit...   
+29  WXF6+XG Washington, District of Columbia, Unit...   
+30  WXC5+V4 Washington, District of Columbia, Unit...   
+31  WXF5+35 Washington, District of Columbia, Unit...   
+32  WXC4+JC Washington, District of Columbia, Unit...   
+33  WXC5+78 Washington, District of Columbia, Unit...   
+34  WXC5+78 Washington, District of Columbia, Unit...   
+35  WXF4+5Q Washington, District of Columbia, Unit...   
+36  WXC4+VR Washington, District of Columbia, Unit...   
+37  WXF5+83 Washington, District of Columbia, Unit...   
+38  WXC5+68 Washington, District of Columbia, Unit...   
+39  WXF5+62 Washington, District of Columbia, Unit...   
+40  WXF4+5Q Washington, District of Columbia, Unit...   
+41  WXF5+PQ Washington, District of Columbia, Unit...   
+42  WXF5+MH Washington, District of Columbia, Unit...   
+43  WXC4+VV Washington, District of Columbia, Unit...   
+44  WXC4+JG Washington, District of Columbia, Unit...   
+45  WXF5+MM Washington, District of Columbia, Unit...   
+46  WXC6+JF Washington, District of Columbia, Unit...   
+47  WXC5+78 Washington, District of Columbia, Unit...   
+48  WXF5+84 Washington, District of Columbia, Unit...   
+49  WXF5+MH Washington, District of Columbia, Unit...   
+50  WXF6+P3 Washington, District of Columbia, Unit...   
+51  WXF5+VX Washington, District of Columbia, Unit...   
+52  WXC5+P5 Washington, District of Columbia, Unit...   
+53  WXF5+62 Washington, District of Columbia, Unit...   
+54  WXC5+78 Washington, District of Columbia, Unit...   
+55  WXC4+JF Washington, District of Columbia, Unit...   
+56  WXF4+5Q Washington, District of Columbia, Unit...   
+57  WXC4+VR Washington, District of Columbia, Unit...   
+58  WXF5+83 Washington, District of Columbia, Unit...   
+59  WXF5+PQ Washington, District of Columbia, Unit...   
+60  WXC5+V3 Washington, District of Columbia, Unit...   
+61                                     No information   
+62  WXC5+V4 Washington, District of Columbia, Unit...   
+63  WXC6+74 Washington, District of Columbia, Unit...   
+64  WXG6+2J Washington, District of Columbia, Unit...   
+65  WXF4+4R Washington, District of Columbia, Unit...   
+66  WXF6+Q4 Washington, District of Columbia, Unit...   
+67  WXC5+88 Washington, District of Columbia, Unit...   
+68  WXC6+JG Washington, District of Columbia, Unit...   
+69  WX95+F9 Washington, District of Columbia, Unit...   
+70  WXC5+Q5 Washington, District of Columbia, Unit...   
+71  WXC5+49 Washington, District of Columbia, Unit...   
+72  WXF6+XG Washington, District of Columbia, Unit...   
+73  WXF4+3R Washington, District of Columbia, Unit...   
+74  WXF5+22 Washington, District of Columbia, Unit...   
+75  WX95+J7 Washington, District of Columbia, Unit...   
+76                                     No information   
+77  WXC5+W4 Washington, District of Columbia, Unit...   
+78  WXF4+9Q Washington, District of Columbia, Unit...   
+79  WXC4+HG Washington, District of Columbia, Unit...   
+80  WXC5+88 Washington, District of Columbia, Unit...   
+81  WXF5+73 Washington, District of Columbia, Unit...   
+82  WXF5+58 Washington, District of Columbia, Unit...   
+83  WXC5+W4 Washington, District of Columbia, Unit...   
+84  WXC5+Q5 Washington, District of Columbia, Unit...   
+85  WXC5+M5 Washington, District of Columbia, Unit...   
+86  WXC5+R4 Washington, District of Columbia, Unit...   
+87  WXC5+49 Washington, District of Columbia, Unit...   
+88  WXC5+49 Washington, District of Columbia, Unit...   
+89  WXC5+P5 Washington, District of Columbia, Unit...   
+90  WXC4+RH Washington, District of Columbia, Unit...   
+91  WXC4+RH Washington, District of Columbia, Unit...   
+92  WXC5+J2 Washington, District of Columbia, Unit...   
+93  WX95+WC Washington, District of Columbia, Unit...   
+94  WX95+R7 Washington, District of Columbia, Unit...   
+95  WXC4+PW Washington, District of Columbia, Unit...   
+96  WXC5+98 Washington, District of Columbia, Unit...   
+97                                     No information   
+98  WXC5+58 Washington, District of Columbia, Unit...   
+99  WX95+WC Washington, District of Columbia, Unit...   
+
+                                             vicinity  
+0                                       United States  
+1                                       United States  
+2                                       United States  
+3                                       United States  
+4                                       United States  
+5                                       United States  
+6                                       United States  
+7                                       United States  
+8                                       United States  
+9                                       United States  
+10                                      United States  
+11                                      United States  
+12                                      United States  
+13                                      United States  
+14                                      United States  
+15                                      United States  
+16                                      United States  
+17                                      United States  
+18           1631 Kalorama Road Northwest, Washington  
+19           1864 Columbia Road Northwest, Washington  
+20           1646 Columbia Road Northwest, Washington  
+21             2525 17th Street Northwest, Washington  
+22             2201 18th Street Northwest, Washington  
+23        2525 Ontario Road Northwest # B, Washington  
+24            2333 Ontario Road Northwest, Washington  
+25           1711 Kalorama Road Northwest, Washington  
+26  1801 Columbia Road Northwest Suite 105, Washin...  
+27                                         Washington  
+28            2517 Mozart Place Northwest, Washington  
+29           1658 Columbia Road Northwest, Washington  
+30             2467 18th Street Northwest, Washington  
+31           1782 Columbia Road Northwest, Washington  
+32           1837 Columbia Road Northwest, Washington  
+33             2405 18th Street Northwest, Washington  
+34             2341 18th Street Northwest, Washington  
+35         1804 Adams Mill Road Northwest, Washington  
+36           1800 Columbia Road Northwest, Washington  
+37           1779 Columbia Road Northwest, Washington  
+38             2335 18th Street Northwest, Washington  
+39         1801 Adams Mill Road Northwest, Washington  
+40         1804 Adams Mill Road Northwest, Washington  
+41           1737 Columbia Road Northwest, Washington  
+42           1755 Columbia Road Northwest, Washington  
+43                                         Washington  
+44                                         Washington  
+45           1747 Columbia Road Northwest, Washington  
+46           1631 Kalorama Road Northwest, Washington  
+47             2405 18th Street Northwest, Washington  
+48                                         Washington  
+49           1755 Columbia Road Northwest, Washington  
+50           1726 Columbia Road Northwest, Washington  
+51           1725 Columbia Road Northwest, Washington  
+52             2453 18th Street Northwest, Washington  
+53         1801 Adams Mill Road Northwest, Washington  
+54             2341 18th Street Northwest, Washington  
+55           1835 Columbia Road Northwest, Washington  
+56         1804 Adams Mill Road Northwest, Washington  
+57           1800 Columbia Road Northwest, Washington  
+58           1779 Columbia Road Northwest, Washington  
+59           1737 Columbia Road Northwest, Washington  
+60             2469 18th Street Northwest, Washington  
+61           1726 Kalorama Road Northwest, Washington  
+62             2469 18th Street Northwest, Washington  
+63           1726 Kalorama Road Northwest, Washington  
+64           1650 Columbia Road Northwest, Washington  
+65      1802 Adams Mill Road Northwest, B, Washington  
+66           1706 Columbia Road Northwest, Washington  
+67             2409 18th Street Northwest, Washington  
+68           1681 Kalorama Road Northwest, Washington  
+69                                         Washington  
+70             2459 18th Street Northwest, Washington  
+71             2321 18th Street Northwest, Washington  
+72           1658 Columbia Road Northwest, Washington  
+73           1801 Columbia Road Northwest, Washington  
+74          2481-83 18th Street Northwest, Washington  
+75             2204 18th Street Northwest, Washington  
+76             2475 18th Street Northwest, Washington  
+77          2473 18th Street Northwest #1, Washington  
+78         1827 Adams Mill Road Northwest, Washington  
+79           1841 Columbia Road Northwest, Washington  
+80             2409 18th Street Northwest, Washington  
+81           1787 Columbia Road Northwest, Washington  
+82           1770 Euclid Street Northwest, Washington  
+83             2471 18th Street Northwest, Washington  
+84             2459 18th Street Northwest, Washington  
+85             2447 18th Street Northwest, Washington  
+86             2461 18th Street Northwest, Washington  
+87             2323 18th Street Northwest, Washington  
+88             2321 18th Street Northwest, Washington  
+89             2453 18th Street Northwest, Washington  
+90           1811 Columbia Road Northwest, Washington  
+91           1813 Columbia Road Northwest, Washington  
+92             2436 18th Street Northwest, Washington  
+93             2305 18th Street Northwest, Washington  
+94             2228 18th Street Northwest, Washington  
+95             2446 18th Street Northwest, Washington  
+96             2411 18th Street Northwest, Washington  
+97           1858 Columbia Road Northwest, Washington  
+98             2327 18th Street Northwest, Washington  
+99             2305 18th Street Northwest, Washington  
+
+
+
+
+SampleData from Google Map API after transformation: 
+=========================================================
+types                   atm  bank  bar  book_store  bus_station  cafe  gym  \
+yelp_id                                                                      
+JjGLEi6zw5PgR4AQfDPBng   19     7   17           4           18    13   10   
+
+types                   museum  school  supermarket  
+yelp_id                                              
+JjGLEi6zw5PgR4AQfDPBng       1       8            3  
+
+
+
+
+=========================================================
+To Perform out data cleaness check and feature generation
+The Data Schema will be: 
+name                      object
+latitude                 float64
+longitude                float64
+is_closed                   bool
+zipcode                  float64
+city                      object
+state                     object
+price                     object
+rating                   float64
+url                       object
+review_count               int64
+transactions              object
+category_x                object
+id                        object
+Name                      object
+category_y                object
+lowprice                  object
+highprice                 object
+health_index              object
+star1                      int64
+star2                      int64
+star3                      int64
+star4                      int64
+star5                      int64
+Accept_Credit_Card        object
+Alcohol                   object
+Appointment_Only         float64
+Caters                    object
+Delivers                 float64
+Dogs_Allowed              object
+Outdoor_Seating           object
+Parking                   object
+Smoking_allowed          float64
+Take_out                  object
+Takes_Reservations        object
+Wheelchair_Accessible     object
+WIFI                      object
+Opened_24hrs             float64
+Ambience                  object
+Attire                    object
+Noise_Level               object
+Music                     object
+atm                      float64
+bank                     float64
+bar                      float64
+beauty_salon             float64
+book_store               float64
+bus_station              float64
+cafe                     float64
+gas_station              float64
+gym                      float64
+movie_theater            float64
+museum                   float64
+school                   float64
+shopping_mall            float64
+subway_station           float64
+supermarket              float64
+taxi_stand               float64
+train_station            float64
+dtype: object
+
+
+
+The Summary metrics for numeric columns will be:
+          latitude    longitude       zipcode       rating  review_count  \
+count  5133.000000  5133.000000   5131.000000  5133.000000   5133.000000   
+mean     37.776096   -98.181870  56271.924381     3.713618    579.218196   
+std       4.482577    21.600586  39579.670011     0.519030    689.075783   
+min      29.383615  -124.204357   1906.000000     1.500000      3.000000   
+25%      34.048937  -118.390419  10601.000000     3.500000    185.000000   
+50%      37.808428   -95.593650  77449.000000     4.000000    367.000000   
+75%      40.755701   -73.994070  91367.000000     4.000000    725.000000   
+max      47.696390   -70.970547  98941.000000     5.000000  15155.000000   
+
+             star1        star2        star3        star4        star5  \
+count  5133.000000  5133.000000  5133.000000  5133.000000  5133.000000   
+mean     26.373076    25.495811    41.496006    87.206507   112.503214   
+std      50.767497    48.647973    89.322837   196.131833   240.134540   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       0.000000     0.000000     0.000000     0.000000     0.000000   
+50%       0.000000     0.000000     0.000000     0.000000     0.000000   
+75%      35.000000    34.000000    49.000000    96.000000   134.000000   
+max     678.000000   863.000000  2405.000000  5757.000000  5993.000000   
+
+       Appointment_Only  Delivers  Smoking_allowed  Opened_24hrs          atm  \
+count               0.0       0.0              0.0           0.0  4762.000000   
+mean                NaN       NaN              NaN           NaN    21.046829   
+std                 NaN       NaN              NaN           NaN    18.289617   
+min                 NaN       NaN              NaN           NaN     1.000000   
+25%                 NaN       NaN              NaN           NaN     7.000000   
+50%                 NaN       NaN              NaN           NaN    14.000000   
+75%                 NaN       NaN              NaN           NaN    29.000000   
+max                 NaN       NaN              NaN           NaN   141.000000   
+
+              bank          bar  beauty_salon   book_store  bus_station  \
+count  4190.000000  4600.000000   4699.000000  3082.000000  4743.000000   
+mean     11.838425    21.779565     25.493722     4.821869    21.807717   
+std      15.124624    21.212632     19.762869     5.726573    15.251156   
+min       1.000000     1.000000      1.000000     1.000000     1.000000   
+25%       3.000000     4.000000      9.000000     1.000000    10.000000   
+50%       6.000000    12.000000     19.000000     3.000000    18.000000   
+75%      13.000000    36.000000     40.000000     6.000000    30.000000   
+max      78.000000   154.000000    114.000000    38.000000   112.000000   
+
+              cafe  gas_station          gym  movie_theater       museum  \
+count  4637.000000  2843.000000  4372.000000    2221.000000  2589.000000   
+mean     18.488031     2.300387    11.628088       3.003152     5.496717   
+std      19.382434     1.661277    12.813475       3.541070     5.467666   
+min       1.000000     1.000000     1.000000       1.000000     1.000000   
+25%       4.000000     1.000000     3.000000       1.000000     1.000000   
+50%      10.000000     2.000000     7.000000       2.000000     3.000000   
+75%      26.000000     3.000000    14.000000       3.000000     8.000000   
+max      95.000000    19.000000    60.000000      27.000000    25.000000   
+
+            school  shopping_mall  subway_station  supermarket  taxi_stand  \
+count  4629.000000    3442.000000     1420.000000  2828.000000   53.000000   
+mean     17.331389       5.444509        2.431690     2.355021    1.075472   
+std      17.485873       6.398014        1.885813     1.825570    0.266679   
+min       1.000000       1.000000        1.000000     1.000000    1.000000   
+25%       5.000000       1.000000        1.000000     1.000000    1.000000   
+50%      10.000000       3.000000        2.000000     2.000000    1.000000   
+75%      23.000000       7.000000        3.000000     3.000000    1.000000   
+max      63.000000      42.000000       13.000000    14.000000    2.000000   
+
+       train_station  
+count     494.000000  
+mean        1.265182  
+std         0.656163  
+min         1.000000  
+25%         1.000000  
+50%         1.000000  
+75%         1.000000  
+max         4.000000  
+
+
+
+The Data Missing Rate will be:
+name                     0.000000
+latitude                 0.000000
+longitude                0.000000
+is_closed                0.000000
+zipcode                  0.000390
+city                     0.000000
+state                    0.000000
+price                    0.000000
+rating                   0.000000
+url                      0.000000
+review_count             0.000000
+transactions             0.000000
+category_x               0.000000
+id                       0.000000
+Name                     0.049484
+category_y               0.049484
+lowprice                 0.049484
+highprice                0.049484
+health_index             0.427041
+star1                    0.000000
+star2                    0.000000
+star3                    0.000000
+star4                    0.000000
+star5                    0.000000
+Accept_Credit_Card       0.050068
+Alcohol                  0.055718
+Appointment_Only         1.000000
+Caters                   0.091759
+Delivers                 1.000000
+Dogs_Allowed             0.784726
+Outdoor_Seating          0.051237
+Parking                  0.111241
+Smoking_allowed          1.000000
+Take_out                 0.066823
+Takes_Reservations       0.058056
+Wheelchair_Accessible    0.709137
+WIFI                     0.059030
+Opened_24hrs             1.000000
+Ambience                 0.131502
+Attire                   0.125658
+Noise_Level              0.062731
+Music                    0.942529
+atm                      0.072277
+bank                     0.183713
+bar                      0.103838
+beauty_salon             0.084551
+book_store               0.399571
+bus_station              0.075979
+cafe                     0.096630
+gas_station              0.446133
+gym                      0.148256
+movie_theater            0.567310
+museum                   0.495617
+school                   0.098188
+shopping_mall            0.329437
+subway_station           0.723359
+supermarket              0.449055
+taxi_stand               0.989675
+train_station            0.903760
+dtype: float64
+
+
+
+There are 0.0 invalid values in rating column
+There are 0.0 invalid values in review_count column
+There are 0.0 invalid values in star1 column
+There are 0.0 invalid values in star2 column
+There are 0.0 invalid values in star3 column
+There are 0.0 invalid values in star4 column
+There are 0.0 invalid values in star5 column
+There are 0.0 invalid values in atm column
+There are 0.0 invalid values in bank column
+There are 0.0 invalid values in bar column
+There are 0.0 invalid values in beauty_salon column
+There are 0.0 invalid values in book_store column
+There are 0.0 invalid values in bus_station column
+There are 0.0 invalid values in cafe column
+There are 0.0 invalid values in gas_station column
+There are 0.0 invalid values in gym column
+There are 0.0 invalid values in movie_theater column
+There are 0.0 invalid values in museum column
+There are 0.0 invalid values in school column
+There are 0.0 invalid values in shopping_mall column
+There are 0.0 invalid values in subway_station column
+There are 0.0 invalid values in supermarket column
+There are 0.0 invalid values in taxi_stand column
+There are 0.0 invalid values in train_station column
+
+
+============================================================
+
+
+Perform some manual validity check based on the understanding of data: 
+There are 0 invalid values column price
+There are 552 invalid values column zipcode
+The overall health score of the dataset is 0.7032029644119481
+=========================================================
+To Perform data feature generation
+New Feature 1 and counts:
+F         1391
+E         1339
+A          790
+D          765
+C          513
+B          322
+biased      13
+Name: popularity, dtype: int64
+New Feature 2 and counts:
+2    3787
+3     899
+1     297
+4     150
+Name: price_category, dtype: int64
+New Feature 3 and counts:
+Somewhat_convenient      2244
+Somewhat_Unconvenient    1239
+Convenient               1050
+Very_Uncovenient          383
+Super_Convenient          217
+Name: transportation, dtype: int64

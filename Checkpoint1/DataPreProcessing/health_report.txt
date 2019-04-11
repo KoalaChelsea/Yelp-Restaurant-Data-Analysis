@@ -1,0 +1,230 @@
+The Data Schema will be: 
+name                      object
+latitude                 float64
+longitude                float64
+is_closed                   bool
+zipcode                  float64
+city                      object
+state                     object
+price                     object
+rating                   float64
+url                       object
+review_count               int64
+transactions              object
+category_x                object
+id                        object
+Name                      object
+category_y                object
+lowprice                  object
+highprice                 object
+health_index              object
+star1                      int64
+star2                      int64
+star3                      int64
+star4                      int64
+star5                      int64
+Accept_Credit_Card        object
+Alcohol                   object
+Appointment_Only         float64
+Caters                    object
+Delivers                 float64
+Dogs_Allowed              object
+Outdoor_Seating           object
+Parking                   object
+Smoking_allowed          float64
+Take_out                  object
+Takes_Reservations        object
+Wheelchair_Accessible     object
+WIFI                      object
+Opened_24hrs             float64
+Ambience                  object
+Attire                    object
+Noise_Level               object
+Music                     object
+atm                      float64
+bank                     float64
+bar                      float64
+beauty_salon             float64
+book_store               float64
+bus_station              float64
+cafe                     float64
+gas_station              float64
+gym                      float64
+movie_theater            float64
+museum                   float64
+school                   float64
+shopping_mall            float64
+subway_station           float64
+supermarket              float64
+taxi_stand               float64
+train_station            float64
+dtype: object
+
+
+
+The Summary metrics for numeric columns will be:
+          latitude    longitude       zipcode       rating  review_count  \
+count  5133.000000  5133.000000   5131.000000  5133.000000   5133.000000   
+mean     37.776096   -98.181870  56271.924381     3.713618    579.218196   
+std       4.482577    21.600586  39579.670011     0.519030    689.075783   
+min      29.383615  -124.204357   1906.000000     1.500000      3.000000   
+25%      34.048937  -118.390419  10601.000000     3.500000    185.000000   
+50%      37.808428   -95.593650  77449.000000     4.000000    367.000000   
+75%      40.755701   -73.994070  91367.000000     4.000000    725.000000   
+max      47.696390   -70.970547  98941.000000     5.000000  15155.000000   
+
+             star1        star2        star3        star4        star5  \
+count  5133.000000  5133.000000  5133.000000  5133.000000  5133.000000   
+mean     26.373076    25.495811    41.496006    87.206507   112.503214   
+std      50.767497    48.647973    89.322837   196.131833   240.134540   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       0.000000     0.000000     0.000000     0.000000     0.000000   
+50%       0.000000     0.000000     0.000000     0.000000     0.000000   
+75%      35.000000    34.000000    49.000000    96.000000   134.000000   
+max     678.000000   863.000000  2405.000000  5757.000000  5993.000000   
+
+       Appointment_Only  Delivers  Smoking_allowed  Opened_24hrs          atm  \
+count               0.0       0.0              0.0           0.0  4762.000000   
+mean                NaN       NaN              NaN           NaN    21.046829   
+std                 NaN       NaN              NaN           NaN    18.289617   
+min                 NaN       NaN              NaN           NaN     1.000000   
+25%                 NaN       NaN              NaN           NaN     7.000000   
+50%                 NaN       NaN              NaN           NaN    14.000000   
+75%                 NaN       NaN              NaN           NaN    29.000000   
+max                 NaN       NaN              NaN           NaN   141.000000   
+
+              bank          bar  beauty_salon   book_store  bus_station  \
+count  4190.000000  4600.000000   4699.000000  3082.000000  4743.000000   
+mean     11.838425    21.779565     25.493722     4.821869    21.807717   
+std      15.124624    21.212632     19.762869     5.726573    15.251156   
+min       1.000000     1.000000      1.000000     1.000000     1.000000   
+25%       3.000000     4.000000      9.000000     1.000000    10.000000   
+50%       6.000000    12.000000     19.000000     3.000000    18.000000   
+75%      13.000000    36.000000     40.000000     6.000000    30.000000   
+max      78.000000   154.000000    114.000000    38.000000   112.000000   
+
+              cafe  gas_station          gym  movie_theater       museum  \
+count  4637.000000  2843.000000  4372.000000    2221.000000  2589.000000   
+mean     18.488031     2.300387    11.628088       3.003152     5.496717   
+std      19.382434     1.661277    12.813475       3.541070     5.467666   
+min       1.000000     1.000000     1.000000       1.000000     1.000000   
+25%       4.000000     1.000000     3.000000       1.000000     1.000000   
+50%      10.000000     2.000000     7.000000       2.000000     3.000000   
+75%      26.000000     3.000000    14.000000       3.000000     8.000000   
+max      95.000000    19.000000    60.000000      27.000000    25.000000   
+
+            school  shopping_mall  subway_station  supermarket  taxi_stand  \
+count  4629.000000    3442.000000     1420.000000  2828.000000   53.000000   
+mean     17.331389       5.444509        2.431690     2.355021    1.075472   
+std      17.485873       6.398014        1.885813     1.825570    0.266679   
+min       1.000000       1.000000        1.000000     1.000000    1.000000   
+25%       5.000000       1.000000        1.000000     1.000000    1.000000   
+50%      10.000000       3.000000        2.000000     2.000000    1.000000   
+75%      23.000000       7.000000        3.000000     3.000000    1.000000   
+max      63.000000      42.000000       13.000000    14.000000    2.000000   
+
+       train_station  
+count     494.000000  
+mean        1.265182  
+std         0.656163  
+min         1.000000  
+25%         1.000000  
+50%         1.000000  
+75%         1.000000  
+max         4.000000  
+
+
+
+The Data Missing Rate will be:
+name                     0.000000
+latitude                 0.000000
+longitude                0.000000
+is_closed                0.000000
+zipcode                  0.000390
+city                     0.000000
+state                    0.000000
+price                    0.000000
+rating                   0.000000
+url                      0.000000
+review_count             0.000000
+transactions             0.000000
+category_x               0.000000
+id                       0.000000
+Name                     0.049484
+category_y               0.049484
+lowprice                 0.049484
+highprice                0.049484
+health_index             0.427041
+star1                    0.000000
+star2                    0.000000
+star3                    0.000000
+star4                    0.000000
+star5                    0.000000
+Accept_Credit_Card       0.050068
+Alcohol                  0.055718
+Appointment_Only         1.000000
+Caters                   0.091759
+Delivers                 1.000000
+Dogs_Allowed             0.784726
+Outdoor_Seating          0.051237
+Parking                  0.111241
+Smoking_allowed          1.000000
+Take_out                 0.066823
+Takes_Reservations       0.058056
+Wheelchair_Accessible    0.709137
+WIFI                     0.059030
+Opened_24hrs             1.000000
+Ambience                 0.131502
+Attire                   0.125658
+Noise_Level              0.062731
+Music                    0.942529
+atm                      0.072277
+bank                     0.183713
+bar                      0.103838
+beauty_salon             0.084551
+book_store               0.399571
+bus_station              0.075979
+cafe                     0.096630
+gas_station              0.446133
+gym                      0.148256
+movie_theater            0.567310
+museum                   0.495617
+school                   0.098188
+shopping_mall            0.329437
+subway_station           0.723359
+supermarket              0.449055
+taxi_stand               0.989675
+train_station            0.903760
+dtype: float64
+
+
+
+There are 0.0 invalid values in rating column
+There are 0.0 invalid values in review_count column
+There are 0.0 invalid values in star1 column
+There are 0.0 invalid values in star2 column
+There are 0.0 invalid values in star3 column
+There are 0.0 invalid values in star4 column
+There are 0.0 invalid values in star5 column
+There are 0.0 invalid values in atm column
+There are 0.0 invalid values in bank column
+There are 0.0 invalid values in bar column
+There are 0.0 invalid values in beauty_salon column
+There are 0.0 invalid values in book_store column
+There are 0.0 invalid values in bus_station column
+There are 0.0 invalid values in cafe column
+There are 0.0 invalid values in gas_station column
+There are 0.0 invalid values in gym column
+There are 0.0 invalid values in movie_theater column
+There are 0.0 invalid values in museum column
+There are 0.0 invalid values in school column
+There are 0.0 invalid values in shopping_mall column
+There are 0.0 invalid values in subway_station column
+There are 0.0 invalid values in supermarket column
+There are 0.0 invalid values in taxi_stand column
+There are 0.0 invalid values in train_station column
+Perform some manual validity check based on the understanding of data: 
+There are 0 invalid values column price
+There are 0 invalid values column price
+There are 552 invalid values column zipcode
+The overall health score of the dataset is 0.7032029644119481
